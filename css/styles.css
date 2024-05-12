@@ -59,6 +59,27 @@ footer{
 }
 
 
+
+ 
+
+.mapa{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.mapa iframe{
+    border: 2px solid black;
+    left:20px;
+    top:20px;
+    height:100%;
+    width:100%;
+}
+ 
+
+
+
 a:link { 
     text-decoration: none; 
   } 
