@@ -45,6 +45,9 @@ footer{
     padding: 1.5%;
 }
 
+.bordes{
+    border-radius: 5px;
+}
 .opcion_menu{
     font-family: menuFont;
     font-weight: bold;
