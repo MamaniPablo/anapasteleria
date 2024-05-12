@@ -46,11 +46,18 @@ footer{
 }
 
 .opcion_menu{
-    font-style: arial;
+    font-family: menuFont;
     font-weight: bold;
     font-size: 3vh;
     color: white;
 }
+
+.redes-sociales{
+    font-family: redessocialesFont;
+    font-size: 25px;
+    color: antiquewhite;
+}
+
 
 a:link { 
     text-decoration: none; 
@@ -64,4 +71,16 @@ a:hover {
 a:active { 
     text-decoration: none; 
   }
+
+
+
+
+  @font-face {
+    font-family: menuFont;
+    src: url(/anapasteleria/fonts/PoetsenOne-Regular.ttf);
+  }
   
+  @font-face {
+    font-family: redessocialesFont;
+    src: url(/anapasteleria/fonts/UbuntuSans.ttf);
+  }
