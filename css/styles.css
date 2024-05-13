@@ -26,6 +26,8 @@ header{
 }
 
 nav{
+    margin: auto;
+    padding: 1,5%;
     background-color: #9CAFAA;
     width: 100%;
     height: 15vh;
@@ -42,7 +44,7 @@ footer{
     background-color: #9CAFAA;
 }
 
-.container{
+.container-footer{
     background-color: #9CAFAA;
     padding: 15px;
     display: flex;
@@ -51,15 +53,59 @@ footer{
     margin: 5px;
 }
 
+.container-qa{
+    padding: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 70vh;
+}
 
-.box{
+ul{
+    list-style-image: url(/anapasteleria/images/lista.jpg);
+    list-style-position: inside;
+    border-style: solid;
+    background: #fbf3d5e0;
+    display: flexbox;
+    padding: 0;
+    transform: scale(0.1);
+    justify-items: flex-start;
+}
+
+li{
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    height: 5vh;
+    width: 100%;
+
+}
+
+.box-footer{
     background-color: #9CAFAA;
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 10;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    font-family: redessocialesFont;
 }
+
+.box-list{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    font-family: redessocialesFont;
+    font-size: 15vh;
+    padding: 0;
+    align-items: flex-start;
+    width: 100%;
+    height: 20vh;
+}
+
+
 
 #logo{
     display: flex;
@@ -69,21 +115,11 @@ footer{
     padding: 1.5%;
 }
 
-.bordes{
-    border-radius: 5px;
-}
-
 .opcion_menu{
     font-family: menuFont;
     font-weight: bold;
     font-size: 3vh;
     color: white;
-}
-
-.redes-sociales{
-    font-size: 25px;
-    width: 50px;
-    text-align: left;
 }
 
 .mapa{
@@ -101,12 +137,6 @@ footer{
     width:100%;
 }
  
-.imgicon{
-    display: flex;
-    margin: 0;
-}
-
-
 a:link { 
     text-decoration: none; 
   } 
@@ -132,3 +162,6 @@ a:active {
     font-family: redessocialesFont;
     src: url(/anapasteleria/fonts/UbuntuSans.ttf);
   }
+
+
+  
