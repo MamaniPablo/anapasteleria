@@ -2,10 +2,19 @@
     margin: 20px;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body{
     background-color: #FBF3D5 ;
+    width: 100%;
+    
+}
+
+.cuerpo{
+    display: flex;
+    width: 100%;
+    height: 1360px;
 }
 
 header{
@@ -28,14 +37,28 @@ nav{
 footer{
     display: flex;
     width: 100%;
-    height: 10vh;
+    height: 25vh;
     margin: auto;
     background-color: #9CAFAA;
-    font-size: 2vh;
-    font-size: arial;
+}
+
+.container{
+    background-color: #9CAFAA;
+    padding: 15px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+
+.box{
+    background-color: #9CAFAA;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10;
 }
 
 #logo{
@@ -49,6 +72,7 @@ footer{
 .bordes{
     border-radius: 5px;
 }
+
 .opcion_menu{
     font-family: menuFont;
     font-weight: bold;
@@ -57,14 +81,10 @@ footer{
 }
 
 .redes-sociales{
-    font-family: redessocialesFont;
     font-size: 25px;
-    color: antiquewhite;
+    width: 50px;
+    text-align: left;
 }
-
-
-
- 
 
 .mapa{
     overflow: hidden;
@@ -81,7 +101,10 @@ footer{
     width:100%;
 }
  
-
+.imgicon{
+    display: flex;
+    margin: 0;
+}
 
 
 a:link { 
