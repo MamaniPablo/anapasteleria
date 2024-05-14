@@ -2,7 +2,6 @@
     margin: 20px;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 body{
@@ -28,7 +27,7 @@ header{
 nav{
     margin: auto;
     padding: 1,5%;
-    background-color: #9CAFAA;
+    background: linear-gradient(#9CAFAA,#FBF3D5);
     width: 100%;
     height: 15vh;
     margin: auto;
@@ -41,11 +40,11 @@ footer{
     width: 100%;
     height: 25vh;
     margin: auto;
-    background-color: #9CAFAA;
+    background: linear-gradient(#FBF3D5,#9CAFAA);
 }
 
 .container-footer{
-    background-color: #9CAFAA;
+    background-color: transparent;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -54,7 +53,6 @@ footer{
 }
 
 .box-footer{
-    background-color: #9CAFAA;
     padding: 0;
     display: flex;
     flex-direction: row;
