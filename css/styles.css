@@ -211,3 +211,37 @@ a:active {
     font-family: menuFont;
     color: #E6A4B4 ;
 }
+
+#formulario{
+    font-size: 30px;
+    font-family: redessocialesFont;
+    display: flex;
+    align-items: flex-start;
+}
+
+#articulo{
+    display: flex;
+    padding: 5vh;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: redessocialesFont;
+    justify-content: center;
+    
+}
+
+.sugerencia{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.in_sugerencia{
+    width: 50vh;
+    height: 30vh;
+    border: solid;
+}
+
+#contact_p{
+    font-family: redessocialesFont;
+    font-size: 20px;
+}
