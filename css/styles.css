@@ -1,26 +1,32 @@
 *{
-    margin: 20px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    background-color: #FBF3D5 ;
+    background-color: #F3D7CA ;
+    width: 100%;
+    
 }
 
 header{
+    display: flex;
     background-image: url("/anapasteleria/images/fondo.jpg") ;
     opacity: 0.5;
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     margin: auto;
+    padding: auto;
+    justify-content: center;
 }
 
 nav{
-    background-color: #9CAFAA;
+    margin: auto;
+    padding: 1,5%;
+    background: #E6A4B4 ;
     width: 100%;
     height: 15vh;
-    margin: auto;
     display: flex;
     justify-content: space-around;
 }
@@ -28,43 +34,62 @@ nav{
 footer{
     display: flex;
     width: 100%;
-    height: 10vh;
+    height: 25vh;
     margin: auto;
-    background-color: #9CAFAA;
-    font-size: 2vh;
-    font-size: arial;
+    background-color: #E6A4B4;
+    padding: 0;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+
+.box-footer{
+    padding: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: auto;
+    font-family: redessocialesFont;
+}
+
+.box-localy{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.font-localy1{
+    font-family: menuFont;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.font-localy2{
+    font-family: redessocialesFont;
+    font-size: 2vh;
 }
 
 #logo{
     display: flex;
     justify-content: center;
-    flex-direction: row;
     margin: auto;
-    padding: 1.5%;
+    padding: auto;
 }
 
-.bordes{
-    border-radius: 5px;
-}
 .opcion_menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
     font-family: menuFont;
     font-weight: bold;
     font-size: 3vh;
-    color: white;
+    text-align: center;
+    border: 2px solid white;
 }
-
-.redes-sociales{
-    font-family: redessocialesFont;
-    font-size: 25px;
-    color: antiquewhite;
-}
-
-
-
- 
 
 .mapa{
     overflow: hidden;
@@ -81,9 +106,6 @@ footer{
     width:100%;
 }
  
-
-
-
 a:link { 
     text-decoration: none; 
   } 
@@ -109,3 +131,59 @@ a:active {
     font-family: redessocialesFont;
     src: url(/anapasteleria/fonts/UbuntuSans.ttf);
   }
+
+  @font-face {
+    font-family: qa;
+    src: url(/anapasteleria/fonts/Borel-Regular.ttf);
+  }
+  
+#p-qa{
+    display: flex;
+    align-items: center;
+    margin-left: 50vh;
+    font-family: qa;
+    font-size: 60px;
+}
+
+
+
+#container-qa {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-left: 3vh;
+    text-align: left;
+  }
+  
+.box-list1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    width: auto;
+    text-align: left;
+    align-items: end;
+    font-family: qa;
+    font-size: 25px;
+  }
+
+ .box-list2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-top: 0;
+    width: auto;
+    text-align: left;
+    align-items: center;
+    font-family: qa;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.icon-qa{
+    list-style-image: url(/anapasteleria/images/lista.png);
+    width: 5vh;
+    height: 5vh;
+ }
+
