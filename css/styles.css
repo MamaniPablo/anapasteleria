@@ -12,7 +12,7 @@ body{
 
 header{
     display: flex;
-    background-image: url("/anapasteleria/images/fondo.jpg") ;
+    background-image: url("/images/fondo.jpg") ;
     opacity: 0.5;
     width: 100%;
     height: 20vh;
@@ -52,21 +52,27 @@ footer{
     font-family: redessocialesFont;
 }
 
-.box-localy{
+#ubicacion{
     display: flex;
-    align-content: center;
     justify-content: space-around;
+    align-content: center;
+    align-items: center;
 }
 
-.font-localy1{
+#titulo-ubicacion{
     font-family: menuFont;
+    color:#E6A4B4;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 5vh;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
 }
 
-.font-localy2{
+.descripcion-ubicacion{
     font-family: redessocialesFont;
-    font-size: 2vh;
+    font-size: 3vh;
+    text-align: center;
 }
 
 #logo{
@@ -124,17 +130,17 @@ a:active {
 
   @font-face {
     font-family: menuFont;
-    src: url(/anapasteleria/fonts/PoetsenOne-Regular.ttf);
+    src: url(/fonts/PoetsenOne-Regular.ttf);
   }
   
   @font-face {
     font-family: redessocialesFont;
-    src: url(/anapasteleria/fonts/UbuntuSans.ttf);
+    src: url(/fonts/UbuntuSans.ttf);
   }
 
   @font-face {
     font-family: qa;
-    src: url(/anapasteleria/fonts/Borel-Regular.ttf);
+    src: url(/fonts/Borel-Regular.ttf);
   }
   
 #p-qa{
@@ -182,8 +188,26 @@ a:active {
 }
 
 .icon-qa{
-    list-style-image: url(/anapasteleria/images/lista.png);
+    list-style-image: url(/images/lista.png);
     width: 5vh;
     height: 5vh;
  }
 
+ #imagenes-sobrenosotros{
+    display: flex;
+    justify-content: center;
+ }
+
+ #descripcion-sobrenosotros{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: redessocialesFont;
+}
+
+#titulo-sobrenosotros{
+    font-size: 50px;
+    font-family: menuFont;
+    color: #E6A4B4 ;
+}
