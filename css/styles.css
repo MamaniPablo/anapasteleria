@@ -42,6 +42,74 @@ footer{
     margin: 5px;
 }
 
+img{
+    display: block;
+}
+.opciones-productos{
+    margin: auto;
+    padding: auto;
+    font-size: 4vh;
+    font-family: menuFont;
+    color: #E6A4B4;
+    text-align: center;
+
+}
+
+#titulo-principal{
+    font-size: 8vh;
+    text-align: center;
+    font-family: menuFont;
+    color:#E6A4B4;
+    text-decoration: underline;
+}
+
+.productos{
+    background-color: #F5EEE6;
+    border: 5px #F5EEE6;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#opcion-pastel{
+    display: grid;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.foto-pastel img{
+    display: flex;
+    padding: auto;
+    margin: auto;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+    height: 15rem;
+}
+
+.descripcion-producto{
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.texto-productos{
+    text-align: center;
+}
+
+.precio{
+    background-color: #E6A4B4;
+    color: black;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 8px;
+}
 
 .box-footer{
     padding: 30px;
@@ -244,4 +312,30 @@ a:active {
 #contact_p{
     font-family: redessocialesFont;
     font-size: 20px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .opcion-pastel {
+        display: grid;
+        grid-template-columns: repeat (3, 1fr);
+        gap: 15px;
+    
+    }
+
+    .productos{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .descripcion-producto{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-productos{
+        flex-grow: 1;
+    }
 }
