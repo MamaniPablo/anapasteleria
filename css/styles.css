@@ -21,7 +21,7 @@ img{
 }
 
 #titulo-principal{
-    font-size: 4vw;
+    font-size: 4vh;
     text-align: center;
     font-family: menuFont;
     color:#E6A4B4;
@@ -96,7 +96,15 @@ img{
     padding: auto;
 }
 
+#texto-ubicacion{
+    margin: 10px;
+    padding: 10px;
+}
 
+#mapa{
+    margin: 10px;
+    padding: 10px;
+}
 
 .mapa{
     overflow: hidden;
@@ -181,6 +189,20 @@ a:active {
  #imagenes-sobrenosotros{
     display: flex;
     justify-content: center;
+    background-color: #F5EEE6 ;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+ }
+
+ .imagen-sobrenosotros{
+    display: block;
+    padding: 15px;
+    margin: 10px;
+    min-width: 250px;
+
+
  }
 
  #descripcion-sobrenosotros{
@@ -271,7 +293,7 @@ a:active {
     footer{
         display: flex;
         width: 100%;
-        height: 50vw;
+        height: 50%;
         margin: auto;
         background-color: #E6A4B4;
         padding: 0;
@@ -327,6 +349,8 @@ a:active {
         text-align: center;
         border: 2px solid white;
     }
+
+    
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px){
