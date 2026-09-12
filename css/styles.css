@@ -139,7 +139,7 @@ a:active {
 
   @font-face {
     font-family: menuFont;
-    src: url(/anapasteleria/fonts/PoetsenOne-Regular.ttf);
+    src: url(/anapasteleria/fonts/poetsenone_regular.ttf);
   }
   
   @font-face {
@@ -149,7 +149,7 @@ a:active {
 
   @font-face {
     font-family: qaFont;
-    src: url(/anapasteleria/fonts/Borel-Regular.ttf);
+    src: url(/anapasteleria/fonts/borel_regular.ttf);
   }
   
 .p-qa{
